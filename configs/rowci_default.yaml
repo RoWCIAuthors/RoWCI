@@ -1,0 +1,35 @@
+data_root: ../data/extracted_Z
+base_score_root: null
+alpha: 0.1
+seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+n_dre: 1000
+n_cal: 1000
+target_size:
+  hs: 1000
+  mb: 500
+weight_clip_quantile: 95.0
+xgboost:
+  n_estimators: 45
+  max_depth: 1
+  learning_rate: 0.07
+  min_child_weight: 1.0
+  reg_lambda: 1.0
+  subsample: 1.0
+  colsample_bytree: 1.0
+  n_jobs: 2
+dre:
+  model: rf
+  params:
+    n_estimators: 200
+    max_depth: 8
+    min_samples_leaf: 5
+    max_features: sqrt
+    n_jobs: 2
+wci:
+  embeddings_path: null
+  rf_params:
+    n_estimators: 300
+    max_depth: 8
+    min_samples_leaf: 5
+    max_features: sqrt
+    n_jobs: 2
