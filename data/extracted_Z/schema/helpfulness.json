@@ -1,0 +1,55 @@
+{
+  "axis": "helpfulness",
+  "coordinates": {
+    "Z1": [
+      "wrong",
+      "related",
+      "requested"
+    ],
+    "Z2": [
+      "missing",
+      "partial",
+      "present"
+    ],
+    "Z3": [
+      "ordinary_or_interaction",
+      "structured_or_artifact",
+      "formal_reference_or_external"
+    ],
+    "Z4": [
+      "many_missing",
+      "some_missing",
+      "covered"
+    ],
+    "Z5": [
+      "generic",
+      "some",
+      "concrete"
+    ],
+    "Z6": [
+      "none",
+      "generic",
+      "specific"
+    ],
+    "Z7": [
+      "poor",
+      "adequate_or_protocol",
+      "direct"
+    ],
+    "Z8": [
+      "ignored",
+      "partial",
+      "followed_or_none"
+    ],
+    "Z9": [
+      "tiny",
+      "some",
+      "substantial"
+    ],
+    "Z10": [
+      "unhelpful_missing",
+      "protocol_or_limited",
+      "ordinary_answer"
+    ]
+  }
+}

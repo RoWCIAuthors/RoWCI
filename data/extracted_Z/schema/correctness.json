@@ -1,0 +1,53 @@
+{
+  "axis": "correctness",
+  "coordinates": {
+    "Z1": [
+      "no",
+      "partial",
+      "yes"
+    ],
+    "Z2": [
+      "missing_or_wrong",
+      "partial",
+      "present"
+    ],
+    "Z3": [
+      "low",
+      "partial",
+      "covered"
+    ],
+    "Z4": [
+      "ordinary_check",
+      "special_check"
+    ],
+    "Z5": [
+      "none",
+      "uncertain_or_check_needed",
+      "major_problem"
+    ],
+    "Z6": [
+      "insufficient",
+      "partial_or_needs_check",
+      "sufficient"
+    ],
+    "Z7": [
+      "none_or_soft",
+      "partial",
+      "satisfied"
+    ],
+    "Z8": [
+      "not_needed",
+      "underverified",
+      "grounded_or_exact"
+    ],
+    "Z9": [
+      "ordinary_or_multi_answer",
+      "exact_or_artifact_output"
+    ],
+    "Z10": [
+      "unusable_or_wrong",
+      "partly_valid",
+      "apparently_valid"
+    ]
+  }
+}

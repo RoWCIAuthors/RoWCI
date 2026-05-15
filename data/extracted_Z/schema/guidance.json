@@ -1,0 +1,30 @@
+{
+  "axis": "guidance",
+  "coordinates": {
+    "Z1": [
+      "sparse",
+      "basic",
+      "developed"
+    ],
+    "Z2": [
+      "low",
+      "concrete_steps",
+      "care_or_script_actions"
+    ],
+    "Z3": [
+      "none",
+      "general_care",
+      "specific_care"
+    ],
+    "Z4": [
+      "brief",
+      "structured",
+      "conditional"
+    ],
+    "Z5": [
+      "none_or_general",
+      "self_monitoring",
+      "care_path"
+    ]
+  }
+}
