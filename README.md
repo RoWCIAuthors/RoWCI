@@ -6,7 +6,7 @@
 pip install -r requirements.txt
 ```
 
-Model checkpoints:
+Used Models:
 
 - Z extraction: https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507
 - WCI embeddings: https://huggingface.co/Qwen/Qwen3-Embedding-8B
